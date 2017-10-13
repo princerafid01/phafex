@@ -1,0 +1,77 @@
+    @media only screen and (min-width: 1400px) {}
+    
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {}
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {}
+    
+    @media only screen and (max-width: 767px) {
+        /* #menu is the original menu */
+        ul.navigation {
+            display: none;
+        }
+        .main-menu .col-sm-2 a img.logo {
+            display: none;
+        }
+        a.responsive-logo img {
+            padding: 10px 20px;
+        }
+        a.responsive-logo {
+            display: block;
+            max-width: 130px;
+            position: fixed;
+            top: 0;
+            z-index: 10;
+        }
+        .slicknav_menu {
+            display: block;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 3;
+        }
+        .slicknav_menu {
+            padding-bottom: 20px;
+        }
+        .testimonial .owl-carousel .owl-item img {
+            margin: 0 0 52px 0;
+        }
+        .testimonial .owl-carousel .owl-item .media span {
+            display: none;
+        }
+        .testimonial .owl-carousel .owl-item .media-body {
+            padding-top: 25px;
+        }
+        .cilents .col-md-3 h2 {
+            padding-bottom: 25px;
+        }
+        .cilents .col-md-8 {
+            padding-bottom: 30px;
+        }
+        .image{display: none;}
+        .hero-area .col-md-6.col-sm-12{text-align: center;}
+        .hero-area .col-md-6.col-sm-12 p{margin: 0 auto;}
+    }
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {}
+    @media only screen  and (max-width: 560px) {
+        .count div {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.count image {
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
+.offers .row div {
+    padding-bottom: 25px;
+}
+    }
+
+
+@media only screen  and (max-width: 350px) {
+    .hero-area .col-md-6.col-sm-12 h1{font-size: 30px;}
+}
