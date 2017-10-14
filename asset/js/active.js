@@ -8,11 +8,7 @@ $(document).ready(function () {
         $(this).addClass('active-card');
     });
 
-    $('a.bg-green').hover(function () {
-
-        $('a.bg-fff').css('background-color', '#37E679');
-        $('a.bg-fff').css('color', '#fff');
-    });
+   
     $('a.bg-green').mouseleave(function () {
 
         $('a.bg-fff').css('background-color', '#fff');
